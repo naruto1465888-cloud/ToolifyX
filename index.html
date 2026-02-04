@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToolifyX – Image Compressor & PDF Tools</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ToolifyX offers fast, free image compression and PDF to JPG / JPG to PDF tools. Secure, browser-based and privacy-friendly.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AdSense (activate AFTER approval) -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    data-ad-client="ca-pub-XXXXXXXXXXXXXXXX">
+  </script>
+
+  <!-- PDF libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>ToolifyX</h1>
+  <p>Smart online tools for images & PDFs</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="privacy.html">Privacy</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- TOP AD -->
+<div class="ad-box">
+  <div class="ad-label">Advertisement</div>
+</div>
+
+<div class="container">
+  <h2>Image Compressor</h2>
+  <input type="file" accept="image/*" id="imageInput">
+  <button onclick="compressImage()">Compress Image</button>
+  <a id="downloadCompressed" hidden></a>
+</div>
+
+<!-- MID AD -->
+<div class="ad-box">
+  <div class="ad-label">Advertisement</div>
+</div>
+
+<div class="container">
+  <h2>JPG to PDF</h2>
+  <input type="file" accept="image/jpeg" id="jpgInput">
+  <button onclick="jpgToPdf()">Convert to PDF</button>
+  <a id="downloadPdf" hidden></a>
+
+  <hr style="margin:30px 0">
+
+  <h2>PDF to JPG</h2>
+  <input type="file" accept="application/pdf" id="pdfInput">
+  <button onclick="pdfToJpg()">Convert to JPG</button>
+  <div id="pdfImages"></div>
+</div>
+
+<!-- FOOTER AD -->
+<div class="ad-box">
+  <div class="ad-label">Advertisement</div>
+</div>
+
+<footer>
+  © 2026 ToolifyX
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
