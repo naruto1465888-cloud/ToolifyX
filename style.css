@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #1a73e8, #4285f4);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+nav {
+  background: white;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #1558b0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eaeaea;
+  font-size: 14px;
+}
+
+.ad-box {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.ad-label {
+  font-size: 12px;
+  color: #888;
+}
